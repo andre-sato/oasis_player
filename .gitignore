@@ -1,0 +1,6 @@
+artifacts/
+publish/
+.dotnet-cli/
+.nuget-packages/
+WindowsOasisPlayer/bin/
+WindowsOasisPlayer/obj/
