@@ -1,4 +1,4 @@
-<Application x:Class="OasisPlayer.Windows.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Application x:Class="OasisPlayer.Windows.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" StartupUri="MainWindow.xaml">
   <Application.Resources>
     <SolidColorBrush x:Key="Ink" Color="#E8E5E0"/><SolidColorBrush x:Key="Muted" Color="#9FA6A1"/><SolidColorBrush x:Key="Surface" Color="#202724"/><SolidColorBrush x:Key="Accent" Color="#A8E6BF"/>
     <Style TargetType="Button"><Setter Property="Padding" Value="14,8"/><Setter Property="Margin" Value="4"/><Setter Property="Background" Value="#2C3833"/><Setter Property="Foreground" Value="{StaticResource Ink}"/><Setter Property="BorderBrush" Value="#3D4B45"/><Setter Property="Cursor" Value="Hand"/></Style>

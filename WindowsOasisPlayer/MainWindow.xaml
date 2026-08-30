@@ -1,6 +1,6 @@
 <Window x:Class="OasisPlayer.Windows.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Oasis Player" Width="1040" Height="700" MinWidth="820" MinHeight="560" Background="#161C19" Foreground="#E8E5E0">
   <Grid Margin="28"><Grid.ColumnDefinitions><ColumnDefinition Width="240"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
-    <StackPanel Grid.Column="0" Margin="0,0,28,0"><TextBlock Text="OASIS" FontSize="28" FontWeight="Bold"/><TextBlock Text="Seu acervo, sem ruído." Foreground="#9FA6A1" Margin="0,4,0,38"/>
+    <StackPanel Grid.Column="0" Margin="0,0,28,0"><Image Source="Assets/oasis-logo.png" Width="72" Height="72" Stretch="Uniform" HorizontalAlignment="Left" Margin="0,0,0,12"/><TextBlock Text="OASIS" FontSize="28" FontWeight="Bold"/><TextBlock Text="Seu acervo, sem ruído." Foreground="#9FA6A1" Margin="0,4,0,38"/>
       <Button Content="Biblioteca" HorizontalContentAlignment="Left"/><Button Content="Playlists" HorizontalContentAlignment="Left"/><Button Content="Importar arquivos" Click="ImportFiles_Click" HorizontalContentAlignment="Left"/>
       <TextBlock Text="URL DIRETA" Foreground="#9FA6A1" FontSize="11" Margin="4,30,4,7"/><TextBox x:Name="UrlBox" Padding="9" Background="#202724" Foreground="#E8E5E0" BorderBrush="#3D4B45"/><Button Content="Baixar e adicionar" Click="Download_Click"/>
       <TextBlock x:Name="StatusText" Foreground="#9FA6A1" TextWrapping="Wrap" Margin="4,18,4,0"/>
