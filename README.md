@@ -19,3 +19,9 @@ Player de música local e offline para iOS 17+, feito em SwiftUI, SwiftData e AV
 3. Abra `OasisPlayer.xcodeproj`, escolha um simulador iOS 17+ e execute os testes.
 
 O projeto não requer login, analytics ou serviços de streaming. URLs são usadas somente para o download solicitado pelo usuário.
+
+## Windows
+
+Uma edição nativa para Windows está em `WindowsOasisPlayer/`. Ela importa arquivos locais, baixa arquivos de áudio por URL direta, mantém a biblioteca offline em `%LOCALAPPDATA%\\Oasis Player` e reproduz os formatos suportados pelo Windows.
+
+O instalador gerado localmente é `artifacts/OasisPlayer-Setup-1.0.0.exe`. Ele é auto-contido para Windows 64-bit e não exige instalar o runtime .NET.
